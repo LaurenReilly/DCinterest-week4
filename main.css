@@ -1,8 +1,24 @@
-img {
+.logo {
     margin-left: 5em;
 }
 
 span.small {
     margin-left: 1em;
     color: grey;
+}
+
+.flexible {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card {
+    align-items: center;
+    border: none;
+    margin-top: 2em;
+}
+
+.card img {
+    width: 200px;
 }
